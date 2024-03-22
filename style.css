@@ -31,13 +31,13 @@ html {
 header{
 }
 .container{
-    min-height: 100vh;
+    max-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 2.5rem;
-    padding: 80px 0;
+    padding: 10rem 0;
     position: relative;
 }
 
@@ -601,6 +601,10 @@ footer{
         grid-template-rows: repeat(3, auto) !important;
         grid-gap: 2rem !important;
         margin: 3rem !important;
+    }
+    h1{
+        font-size: 2rem !important;
+        margin: 1rem;
     }
     h2{
         font-size: 1.5rem !important;
