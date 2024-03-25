@@ -31,13 +31,13 @@ html {
 header{
 }
 .container{
-    max-height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 2.5rem;
-    padding: 10rem 0;
+    padding: 3rem 0;
     position: relative;
 }
 
